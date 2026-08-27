@@ -1,0 +1,62 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@craco/craco": "^7.1.0",
+    "@mui/icons-material": "^5.15.8",
+    "@mui/material": "^5.15.7",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.6.7",
+    "dotenv": "^16.3.1",
+    "react": "^18.2.0",
+    "react-collapsed": "^4.1.2",
+    "react-dom": "^18.2.0",
+    "react-icons": "^5.0.1",
+    "react-native-autogrow-textinput": "^5.4.0",
+    "react-native-markdown-display": "^7.0.2",
+    "react-native-radio-buttons-group": "^3.0.5",
+    "react-native-tts": "^4.1.1",
+    "react-native-web": "^0.19.9",
+    "react-pro-sidebar": "^1.1.0",
+    "react-scripts": "5.0.1",
+    "react-select": "^5.8.0",
+    "react-tooltip": "^5.26.0",
+    "remark-breaks": "^4.0.0",
+    "set-cookie-parser": "^2.6.0",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/plugin-syntax-jsx": "^7.25.9",
+    "@babel/preset-env": "^7.26.0",
+    "@babel/preset-react": "^7.25.9",
+    "babel-loader": "^9.2.1"
+  }
+}
